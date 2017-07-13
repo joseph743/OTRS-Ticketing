@@ -1,0 +1,142 @@
+ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:16:01 2017
+
+ Message: There was an error executing Execute() in Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch: ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:16:01 2017
+
+ Message: Can't get ArticleID from insert (TicketID=1016027, MessageID=<0OSZ002MKE9H2K60@claudiusfe.idm.net.lb>)!
+
+ Traceback (19628): 
+   Module: Kernel::System::Ticket::Article::ArticleCreate Line: 320
+   Module: Kernel::System::PostMaster::NewTicket::Run Line: 455
+   Module: Kernel::System::PostMaster::Run Line: 413
+   Module: Kernel::System::MailAccount::IMAP::_Fetch Line: 220
+   Module: Kernel::System::MailAccount::IMAP::Fetch Line: 86
+   Module: Kernel::System::MailAccount::MailAccountFetch Line: 440
+   Module: Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch::Run Line: 94
+   Module: (eval) Line: 460
+   Module: Kernel::System::Console::BaseCommand::Execute Line: 454
+   Module: (eval) Line: 150
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 129
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
+ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:16:01 2017
+
+ Message: Can't process email with MessageID <<0OSZ002MKE9H2K60@claudiusfe.idm.net.lb>>! Please create a bug report with this email (From: proactivemanagedservice@gds.com.lb, Located under var/spool/problem-email*) on http://bugs.otrs.org/!
+
+ Traceback (19628): 
+   Module: Kernel::System::PostMaster::NewTicket::Run Line: 483
+   Module: Kernel::System::PostMaster::Run Line: 413
+   Module: Kernel::System::MailAccount::IMAP::_Fetch Line: 220
+   Module: Kernel::System::MailAccount::IMAP::Fetch Line: 86
+   Module: Kernel::System::MailAccount::MailAccountFetch Line: 440
+   Module: Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch::Run Line: 94
+   Module: (eval) Line: 460
+   Module: Kernel::System::Console::BaseCommand::Execute Line: 454
+   Module: (eval) Line: 150
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 129
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
+ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:16:01 2017
+
+ Message: IMAP: Can't process mail, see log sub system (/opt/otrs/var/spool/problem-email-8a847c2c270359c679165e441427ecdb, report it on http://bugs.otrs.org/)!
+
+ Traceback (19628): 
+   Module: Kernel::System::MailAccount::IMAP::_Fetch Line: 224
+   Module: Kernel::System::MailAccount::IMAP::Fetch Line: 86
+   Module: Kernel::System::MailAccount::MailAccountFetch Line: 440
+   Module: Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch::Run Line: 94
+   Module: (eval) Line: 460
+   Module: Kernel::System::Console::BaseCommand::Execute Line: 454
+   Module: (eval) Line: 150
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 129
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
+
+
+ Traceback (19628): 
+   Module: Kernel::System::Daemon::DaemonModules::BaseTaskWorker::_HandleError Line: 51
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 181
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
+ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:39:03 2017
+
+ Message: There was an error executing Execute() in Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch: ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:39:03 2017
+
+ Message: Can't get ArticleID from insert (TicketID=1016028, MessageID=<0OSZ002JIFBW5380@claudiusfe.idm.net.lb>)!
+
+ Traceback (20650): 
+   Module: Kernel::System::Ticket::Article::ArticleCreate Line: 320
+   Module: Kernel::System::PostMaster::NewTicket::Run Line: 455
+   Module: Kernel::System::PostMaster::Run Line: 413
+   Module: Kernel::System::MailAccount::IMAP::_Fetch Line: 220
+   Module: Kernel::System::MailAccount::IMAP::Fetch Line: 86
+   Module: Kernel::System::MailAccount::MailAccountFetch Line: 440
+   Module: Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch::Run Line: 94
+   Module: (eval) Line: 460
+   Module: Kernel::System::Console::BaseCommand::Execute Line: 454
+   Module: (eval) Line: 150
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 129
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
+ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:39:03 2017
+
+ Message: Can't process email with MessageID <<0OSZ002JIFBW5380@claudiusfe.idm.net.lb>>! Please create a bug report with this email (From: proactivemanagedservice@gds.com.lb, Located under var/spool/problem-email*) on http://bugs.otrs.org/!
+
+ Traceback (20650): 
+   Module: Kernel::System::PostMaster::NewTicket::Run Line: 483
+   Module: Kernel::System::PostMaster::Run Line: 413
+   Module: Kernel::System::MailAccount::IMAP::_Fetch Line: 220
+   Module: Kernel::System::MailAccount::IMAP::Fetch Line: 86
+   Module: Kernel::System::MailAccount::MailAccountFetch Line: 440
+   Module: Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch::Run Line: 94
+   Module: (eval) Line: 460
+   Module: Kernel::System::Console::BaseCommand::Execute Line: 454
+   Module: (eval) Line: 150
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 129
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
+ERROR: OTRS-otrs.Console.pl-Maint::PostMaster::MailAccountFetch-27 Perl: 5.16.3 OS: linux Time: Wed Jul 12 17:39:03 2017
+
+ Message: IMAP: Can't process mail, see log sub system (/opt/otrs/var/spool/problem-email-ba80e3ab310281491a3144e91d9504f0, report it on http://bugs.otrs.org/)!
+
+ Traceback (20650): 
+   Module: Kernel::System::MailAccount::IMAP::_Fetch Line: 224
+   Module: Kernel::System::MailAccount::IMAP::Fetch Line: 86
+   Module: Kernel::System::MailAccount::MailAccountFetch Line: 440
+   Module: Kernel::System::Console::Command::Maint::PostMaster::MailAccountFetch::Run Line: 94
+   Module: (eval) Line: 460
+   Module: Kernel::System::Console::BaseCommand::Execute Line: 454
+   Module: (eval) Line: 150
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 129
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
+
+
+ Traceback (20650): 
+   Module: Kernel::System::Daemon::DaemonModules::BaseTaskWorker::_HandleError Line: 51
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Cron::Run Line: 181
+   Module: Kernel::System::Daemon::DaemonModules::SchedulerTaskWorker::Run Line: 250
+   Module: (eval) Line: 316
+   Module: main::Start Line: 316
+   Module: /opt/otrs//bin/otrs.Daemon.pl Line: 138
+
