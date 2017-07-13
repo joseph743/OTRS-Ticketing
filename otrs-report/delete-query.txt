@@ -1,0 +1,8 @@
+delete from ticket_history;
+delete from article_plain;
+delete from article_attachment;
+delete from time_accounting;
+delete from article_flag;
+delete from article;
+delete from ticket_flag;
+delete from ticket;

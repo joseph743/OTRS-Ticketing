@@ -1,0 +1,97 @@
+/**
+ * 100% height layout with header and footer
+ * ----------------------------------------------
+ * Feel free to copy/use/change/improve
+ */
+
+table {
+   
+    width: 100%;
+}
+
+th, td {
+
+    text-align:center; 
+    vertical-align:middle;
+    padding: 8px;
+}
+
+.result:nth-child(even){background-color: #E1E1E1;}
+.result:hover {background-color: #B1B1B1;}
+.res{border-right-style: solid;
+	border-right-color:#F92;
+	border-left-style: solid;
+	border-left-color:#F92;
+	}
+
+
+th {
+    text-align:center; 
+    vertical-align:middle;
+	background-color: #333333;
+    color: White;
+}
+
+
+
+/* Other css */
+
+html,body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background:#333333;
+	
+	font-family:arial,sans-serif;
+	font-size:small;
+	color:#666;
+}
+
+h1 { color:#F92;
+
+	font:1.8em serif;
+	margin:0.5em 0;
+}
+
+h2 {
+	font:1.25em georgia,serif; 
+	margin:0 0 0.5em;
+}
+	 h2 {
+		color:orange;
+	}
+
+p { 
+	line-height:1.5; 
+	margin:0 0 1em;
+}
+
+div#container {
+	margin:0 auto;
+	overflow:scroll;
+	width:100%;
+	background:#f0f0f0;
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+}
+
+div#header {
+	padding:1em;
+	background:#ddd url("../csslayout.gif") 98% 10px no-repeat;
+	border-bottom:6px double gray;
+}
+	div#header p {
+		font-style:italic;
+		font-size:1.1em;
+		margin:0;
+	}
+
+div#content {
+	padding:1em;
+}
+	div#content p {
+		text-align:center; 
+    vertical-align:middle;
+		padding:0 1em;
+	}
